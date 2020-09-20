@@ -152,7 +152,7 @@ class DscFutaBot:
             
             logging.info('I am done searching for related tweets on ML,AI and DS.....')
             logging.info('\nDSCFUTA BOT Temporarily deactivated, will resume in the next 1minute.......')
-            time.sleep(60)
+            time.sleep(2700)
 
 
 
