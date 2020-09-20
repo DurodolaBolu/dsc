@@ -55,7 +55,6 @@ soupsieve==2.0.1
 tornado==6.0.4
 tqdm==4.48.2
 tweepy==3.9.0
-Twisted @ file:///C:/Users/Boluwatife/Downloads/Twisted-20.3.0-cp38-cp38-win32.whl
 typing-extensions==3.7.4.2
 urllib3==1.25.10
 w3lib==1.22.0
