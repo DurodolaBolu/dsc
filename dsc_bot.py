@@ -99,7 +99,7 @@ class DscFutaBot:
                     logging.info(f'successfully liked and retweeted post made by @{tweet.user.screen_name}')
                 except tweepy.TweepError:
                     logging.error('error while liking and retweeting', exc_info=True)
-            time.sleep(30)
+            time.sleep(120)
             self.new_since_id.append(tweet._json['id'])
         else:
             logging.info("Done checking for recent tweets on data science, machine learning or AI")
@@ -151,8 +151,8 @@ class DscFutaBot:
             self.respond_to_keywords()
             
             logging.info('I am done searching for related tweets on ML,AI and DS.....')
-            logging.info('\nDSCFUTA BOT Temporarily deactivated, will resume in the next 1minute.......')
-            time.sleep(2700)
+            logging.info('\nDSCFUTA BOT Temporarily deactivated, will resume in the next 15minute.......')
+            time.sleep(900)
 
 
 
