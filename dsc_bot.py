@@ -162,7 +162,7 @@ class DscFutaBot:
 since_id = 'since_id.txt'
 instructor_handles = 'instructors.json'
 dsc_handles = 'dsc_handles.json'
-keywords = ['dsc', 'developer student club','developer', '#datascience', 'data science', 'machine learning', 'machineleanring', '#python']
+keywords = ['dsc', 'developer student club','#datascience', 'data science', 'machine learning', 'machineleanring', '#python']
 search_query = f''' "Data Science" OR "data science" OR "#DataScience" OR "Machine Learning" OR "#machinelearning"
                       OR "machine learning" OR "#MachineLearning" -filter:retweets'''
 if __name__ == "__main__":
