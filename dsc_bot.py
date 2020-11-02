@@ -69,6 +69,7 @@ class DscFutaBot:
                         logging.info(f'found a new tweet on {instructor}\'s timeline....')
                         time.sleep(2)
                         tweet.retweet()
+                        time.sleep(7)
                         tweet.favorite()
                         logging.info(f'successfully retweeted and liked this tweet by @{tweet.user.screen_name}')
                     except tweepy.TweepError:
@@ -95,6 +96,7 @@ class DscFutaBot:
                     logging.info(f'found a tweet by @{tweet.user.screen_name}')
                     time.sleep(3)
                     tweet.retweet()
+                    time.sleep(8)
                     tweet.favorite()
                     logging.info(f'successfully liked and retweeted post made by @{tweet.user.screen_name}')
                 except tweepy.TweepError:
@@ -123,6 +125,7 @@ class DscFutaBot:
                         logging.info(f'found a new tweet on {dsc}\'s timeline....')
                         time.sleep(2)
                         tweet.retweet()
+                        time.sleep(8)
                         tweet.favorite()
                         logging.info(f'successfully retweeted and liked this tweet by @{tweet.user.screen_name}')
                     except tweepy.TweepError:
